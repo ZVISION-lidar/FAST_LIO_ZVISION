@@ -15,7 +15,7 @@
 
 ## Quickly Run with Zvision_1/3/5/5_MT
 
-**For ROS1 Users**: Please switch to the **ros1** branch and follow the instructions at [ros1 branch](https://github.com/Liansheng-Wang/Super-LIO/tree/ros1)
+**For ROS1 Users**: Please switch to the **ros1** branch and follow the instructions at [ros1 branch](https://github.com/ZVISION-lidar/FAST_LIO_ZVISION/tree/ROS1)
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
