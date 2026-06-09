@@ -25,6 +25,7 @@ The **default from apt** PCL and Eigen is enough for FAST-LIO to work normally.
 
 ROS >= Foxy (Recommend to use ROS-Humble). [ROS Installation](https://docs.ros.org/en/humble/Installation.html)
 
+
 ### 1.2. **PCL && Eigen**
 PCL    >= 1.8,   Follow [PCL Installation](https://pointclouds.org/downloads/#linux).
 
@@ -42,6 +43,7 @@ Clone the repository and colcon build:
     colcon build --symlink-install
 ```
 
+
 ## 3. Directly run with zvision
 
 ### 3.1 Run use ros launch
@@ -54,12 +56,14 @@ source install/setup.bash # use setup.zsh if use zsh
 ros2 launch zvlidar_sdk run.py
 ```
 
+
 Launch fastlio2.
 ```bash
 cd <ros2_ws>
 source install/setup.bash # use setup.zsh if use zsh
 ros2 launch fast_lio mapping_zvision_nz1.launch.py # depend on yourself lidar model: ros2 launch fast_lio mapping_zvision_nz*(1/3/5/5_MT).launch.py 
 ```
+
 
 ### 3.2 PCD file save
 
