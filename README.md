@@ -72,7 +72,7 @@ roslaunch zvlidar_sdk run.launch
 
 Launch fastlio2.
 ```bash
-cd <ros2_ws>
+cd <ros1_ws>
 source install/setup.bash # use setup.zsh if use zsh
 roslaunch fast_lio mapping_zvision_nz1.launch # depend on yourself lidar model: roslaunch fast_lio mapping_zvision_nz*(1/3/5/5_mt).launch.py 
 ```
